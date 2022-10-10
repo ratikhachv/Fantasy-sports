@@ -8,7 +8,7 @@ body{
     height: 375px;
 }
 .background-boy{
-    width: 80vw;
+    width: 811.52px;
     height: 375px;
     background-image: url("../images/image.png");
     background-size: cover;
@@ -17,7 +17,7 @@ body{
     align-items: flex-end;
 }
 .blackBox{
-    width: 20vw;
+    width: 213.48px;
     height: 375px;
     border: 28px solid black;
     background-color: black; 
