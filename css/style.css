@@ -1,6 +1,8 @@
 body{
+    margin-left: 5px;
     width: fit-content;
     max-width: 1028px;
+    border: 2px solid #E7E2E1;
 }
 .firstSect{
     display: flex;
@@ -46,6 +48,7 @@ body{
     justify-content: center;
     align-items: center;
 }
+/* xarvezi */
 button{
     background:none;
     border: none;
@@ -56,4 +59,38 @@ button{
 }
 .stats{
     height: 212px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.stats div{
+    align-items: center;
+    display: flex;
+    height: 33%;
+    width: 460px;
+    justify-content: space-between;
+    border-bottom: lightgray 1px solid;
+}
+hr{
+    color: black;
+    height: 2px;
+    width: 100%;
+}
+.statDetails{
+    display: flex;
+    height: 135px;
+    flex-direction: column;
+    gap: 4px;
+
+}
+.statDetails div{
+    border: 15px solid black;
+    height: 65px;
+    display: flex;
+    background-color: black ;
+    justify-content: space-between;
+    align-items: center;
+}
+.playerDetails{
+    color: aliceblue;
 }
