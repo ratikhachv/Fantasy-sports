@@ -94,3 +94,40 @@ hr{
 .playerDetails{
     color: aliceblue;
 }
+.thirdSect{
+    height: 445px;
+    background-color: #E7E2E1;
+    display: flex;
+    justify-content: center;
+}
+.highlights{
+    margin-top: 37px;
+    margin-left: 30px;
+    position: absolute;
+    margin-bottom: 20px;
+}
+.thirdSectBoxes{
+    display: flex;
+    gap: 20px;
+    justify-content:center;
+    align-items:center;
+}
+.thirdSectBoxes div{
+    width: 200px;
+    height: 332px;
+    background-color: #AA4F4D;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.minsAgo{
+    font-size: 11px;
+    color: #EAA197;
+}
+.thirdSectBoxes div div{
+    height: 50px;
+}
+.thirdSectBoxes div img{
+    height: 90px;
+}
