@@ -1,0 +1,17 @@
+body{
+    width: fit-content;
+    max-width: 1028px;
+}
+.firstSect{
+    display: flex;
+    height: 375px;
+}
+.background-boy{
+    width: 80vw;
+    height: 375px;
+    background-image: url("../images/image.png");
+    background-size: cover;
+}
+.blackBox{
+    
+}
